@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-weight: 400;
+    background: #FFF;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1170px;
+    height: 120px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hlogo {
+    padding-top: 40px;
+    height: 40px;
+    width: 35px;
+}
+.htext {
+    padding-left: 14px;
+    padding-top: 45px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.htexttwo {
+    padding-top: 45px;
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__menu {
+    padding-top: 51px;
+    padding-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    line-height: normal;
+    width: 533px;
+    height: 17px;
+    
+}
+
+.link__menu {
+    color: #000;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+}
+
+.link__menu--active {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+}
+
+.top_content {
+    max-width: 1170px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.top__text {
+    padding-top: 44px;
+    width: 522px;
+    height: 374px;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text {
+    max-width: 466px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.image_top {
+    width: 610px;
+    height: 372px;
+    padding-top: 44px;
+    padding-left: 41px;
+    display: block;
+}
+
+.buttons {
+    border-radius: 50px;
+    background: #F25822;
+    font-family: Gilroy-Bold;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    padding-top: 15px;
+    padding: 15px 36px 16px 35px;
+    color: #FFF;
+    border: none;
+}
+
+.link__topbutton {
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    line-height: normal;
+    font-style: normal;
+    color: #AAA;
+}
+
+.footer {
+    max-width: 1228px;
+    margin: 0 auto;
+    height: 243px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_img{
+    width: 160px;
+    height: 50px;
+    padding-right: 48px;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./font/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('./font/Gilroy-Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./font/Gilroy-Medium.woff2');
+}
